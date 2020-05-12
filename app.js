@@ -1,8 +1,8 @@
 let Friends = [ 'John', 'Jacob', 'Jingle', 'Himer', 'Schmitt' ];
 
 //Loops for the songs
-for (let i = 0; i < Friends.length; i++){
-     console.log(Friends[i] +":" )
+for (let i = 0; i < Friends.length; i++) {
+	console.log(Friends[i] + ':');
 	let num = 99;
 	while (num >= 1) {
 		if (num > 2)
@@ -23,7 +23,7 @@ for (let i = 0; i < Friends.length; i++){
 					' Lines of code in the file! ' +
 					num +
 					' Lines of Code! ' +
-					Friends[i]+
+					Friends[i] +
 					' deletes one line, clears it all out.' +
 					'.. ' +
 					(num - 1) +
@@ -37,12 +37,10 @@ for (let i = 0; i < Friends.length; i++){
 					' Line of Code! ' +
 					Friends[i] +
 					' deletes one line, clears it all out.' +
-					'.. ' + ' No more lines of code in the file!'
+					'.. ' +
+					' No more lines of code in the file!'
 			);
 
-		num = num -1;
+		num = num - 1;
 	}
 }
-
-
-
