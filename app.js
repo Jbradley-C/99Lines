@@ -12,7 +12,7 @@ for (let i = 0; i < Friends.length; i++) {
 
 		} else if (num === 1) {
 			console.log(
-				num + ' Lines of code in the file! ' +	num + ' Lines of Code! ' + Friends[i] + ' deletes one line, clears it all out.' + '.. ' + ' no more lines of code in the file!' 
+				num + ' Line of code in the file! ' +	num + ' Lines of Code! ' + Friends[i] + ' deletes one line, clears it all out.' + '.. ' + ' no more lines of code in the file!' 
 			);
 
 		} else {
